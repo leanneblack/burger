@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700|Staatliches');
+
+
+body {
+  background-image: url(../bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: Montserrat;
+
+
+}
+
+body p {
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+.jumbotron {
+  background-color: #cca263;
+}
+
+
+
+
+.milkshakes {
+  font-family: Staatliches;
+  font-size: .9em;
+  letter-spacing: 1px;
+}
+
+.main {
+  width: 80%;
+  background-color: #cca263;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.addbtn {
+  font-family: Staatliches;
+  font-size: 1em;
+  color: #cca263;
+  background-color: #fff;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-family: Staatliches;
+  font-size: 1.3em;
+}
+
+.addBurger {
+  font-family: Staatliches;
+  font-size: 1em;
+}
+
+.innerTitle {
+  font-family: Staatliches;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+}
+
+label {
+  font-family: Staatliches;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.inputText {
+  font-family: Montserrat;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: .8em;
+  letter-spacing: 1px;
+}
+
+input {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: .7em;
+  letter-spacing: 1px;
+}
+
+.btn-change {
+  font-family: Staatliches;
+  font-weight: 800;
+  font-size: .8em;
+  color: #cca263;
+  background-color: #fff;
+  letter-spacing: 1px;
+}
+
+li {
+  font-family: Montserrat;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: .8em;
+  letter-spacing: 1px;
+}
