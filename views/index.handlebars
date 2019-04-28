@@ -11,14 +11,14 @@
 <div class="col-5 mx-auto">
   <h2 class="addBurger">YOUR BURGER ?</h2>
   <div class="form-group inputText">
-    {{!-- <label for="devoured">YOUR BURGER ?</label><br> --}}
-    <input class="inputText" type="radio" name="devoured" value="1" checked> Already Devoured!<br>
-    <input type="radio" class="inputText" name="devoured" value="0"> Ready for muh Belly!
+    <label for="devoured"></label><br>
+    <input class="inputText" type="radio" name="devoured" value="1" checked> Ready for muh Belly!<br>
+    <input type="radio" class="inputText" name="devoured" value="0"> Already devoured!
   </div>
 
   <button class="btn btn-secondary btn-lg btn-block addbtn" type="submit">Add Your Burger</button>
 </div>
-</form>
+
 </div>
 </div>
 
@@ -35,10 +35,12 @@
         {{/unless}}
         {{/each}}
       </ul>
+      </form>
     </div>
 
     <div class="col-sm-5 mx-auto">
       <h2 class="innerTitle">burgers to devoure!</h2>
+
 
       <ul>
         {{#each burgers}}
@@ -47,6 +49,7 @@
         {{/if}}
         {{/each}}
       </ul>
+      </form>
     </div>
   </div>
 </div>

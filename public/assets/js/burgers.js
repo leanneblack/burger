@@ -37,13 +37,13 @@ $(function() {
       type: "POST",
       data: newBurger
     }).then(function() {
-      console.log("created new burger");
+      console.log("added new burger");
       // Reload the page to get the updated list
       location.reload();
     });
   });
 
-  $(".delete-Burger").on("click", function(event) {
+  $(".delete-burger").on("click", function(event) {
     var id = $(this).data("id");
 
     // Send the DELETE request.
